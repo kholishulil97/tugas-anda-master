@@ -1,0 +1,243 @@
+<resources>
+    <!-- Application Specific -->
+    <string name="app_name">Tugas Anda</string>
+    <string name="app_name_long">Menjaga privasi tugas Anda</string>
+    <string name="initial_alert">CLICK + UNTUK DAFTAR BARU</string>
+    <string name="second_alert">TAMBAH TUGAS BARU ></string>
+
+    <!-- Menu -->
+    <string name="nav_header_app_name">Tugas Anda</string>
+    <string name="toolbar_title_main">Tugas Anda</string>
+    <string name="todos">Tugas Anda</string>
+    <string name="home">Semua tugas</string>
+    <string name="calendar_view">Kalender</string>
+    <string name="show_all_tasks">Tampilkan semua tugas</string>
+    <string name="settings">Pengaturan</string>
+    <string name="other">Lain-lain</string>
+    <string name="help">Bantuan</string>
+    <string name="menu_about">Tentang</string>
+    <string name="search">Cari</string>
+
+
+    <!-- Common UI strings -->
+    <string name="navigation_drawer_open">Buka menu</string>
+    <string name="navigation_drawer_close">Tutup menu</string>
+    <string name="name">Nama</string>
+    <string name="todo_list_description_hint">Deskripsi</string>
+    <string name="ok">Oke</string>
+
+    <!-- Common model strings -->
+    <string name="select_option">Pilih opsi</string>
+    <string name="high_priority">Tinggi</string>
+    <string name="medium_priority">Sedang</string>
+    <string name="low_priority">Rendah</string>
+    <string name="unknown_priority">Belum diketahui</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <!-- Help -->
+    <string name="help_overview_heading">Informasi umum</string>
+    <string name="help_intro">Aplikasi pengingat Tugas Anda dapat digunakan untuk mengingat tugas-tugas yang luar biasa dan mengatur jadwal pribadi.</string>
+    <string name="help_group_lists">Manajemen tugas</string>
+    <string name="help_todo_lists_title">Daftar Tugas Anda</string>
+    <string name="help_todo_lists">Sebuah "Daftar Tugas Anda" adalah sekelompok tugas dan dapat dibuat menggunakan tombol + pada toolbar. Daftar tersebut muncul di menu navigasi dan dapat dilihat di sana. Tugas di dalam Daftar Tugas Anda dapat diperiksa, diedit dan dihapus.</string>
+    <string name="help_subtasks_title">Sub-tugas</string>
+    <string name="help_subtasks">Sub-tugas dapat dilampirkan ke tugas untuk mewakili langkah-langkah yang lebih kecil untuk menyelesaikannya. Sub-tugas dapat dibuat dengan membuka menu tugas saat melihat daftar.</string>
+    <string name="help_deadline_reminder_title">Deadline dan reminder</string>
+    <string name="help_deadline_reminder">Deadline dan reminder hanya dapat dibuat untuk tugas. Anda dapat menentukannya saat membuat tugas, atau saat mengeditnya. Tekan lama pada tugas untuk mengeditnya.</string>
+    <string name="help_group_app">Pengaturan</string>
+    <string name="help_pin_title">Pengaturan</string>
+    <string name="help_pin">Buka menu pengaturan untuk mengatur PIN proteksi untuk aplikasi Anda. PIN proteksi harus berupa angka dengan 4 digit. Anda diminta untuk mengisi setiap kali Anda memulai aplikasi.</string>
+    <string name="help_sound">Selain itu Anda dapat memilih apakah suara pemberitahuan harus diaktifkan ketika menerima pemberitahuan.</string>
+    <string name="help_group_privacy">Info Privasi</string>
+    <string name="help_permissions_title">Izin RECEIVE_BOOT_COMPLETED</string>
+    <string name="help_permissions">Izin RECEIVE_BOOT_COMPLETED: Izin ini memungkinkan aplikasi untuk memeriksa sesaat setelah booting perangkat, jika pengguna ingin mendapatkan informasi tentang deadline mendatang. Pelacakan, iklan, atau izin lainnya tidak ada.</string>
+    <string name="help_widget">Selain itu, aplikasi ini menyediakan widget yang dapat Anda tambahkan ke homescreen Anda. Widget menyajikan kepada Anda tugas-tugas yang termasuk dalam daftar yang dipilih. Menekan tugas mengarahkan Anda ke tampilan utama aplikasi. Tombol sinkronisasi dapat memperbarui daftar tugas yang ditampilkan.</string>
+
+
+    <!-- About -->
+    <string name="about">Tentang</string>
+    <string name="version_number">Versi v%s</string>
+    <string name="about_author">Perancang:</string>
+    <string name="about_author_names" translatable="false">Tim MKPL-C</string>
+    <string name="about_author_contributors">dan para kontributor</string>
+    <string name="about_affiliation"></string>
+    <string name="privacy_friendly"></string>
+    <string name="more_info"></string>
+    <string name="github" translatable="false"></string>
+    <string name="url" translatable="false"></string>
+
+    <!-- To-Do list overview -->
+    <string name="done">selesai</string>
+    <string name="no_todo_lists_available">Tidak daftar yang tersedia.</string>
+    <string name="next_deadline_dd">Deadline berikutnya: %1$s</string>
+    <string name="no_next_deadline">Tidak ada deadline berikutnya</string>
+    <string name="add_list_feedback">%1$s ditambahkan</string>
+    <string name="edit_todo_list">Edit daftar</string>
+    <string name="delete_list">Hapus daftar</string>
+    <string name="delete_list_feedback">%1$s dihapus</string>
+
+    <!-- Create/Edit To-Do list dialog -->
+    <string name="new_todo_list">Daftar baru</string>
+    <string name="list_name_must_not_be_empty">Mohon masukkan nama daftar.</string>
+    <string name="show_description">Tampilkan deskripsi</string>
+    <string name="no_description_available">Tidak ada deskripsi tersedia.</string>
+
+    <!-- To-Do tasks overview -->
+    <string name="empty_todo_list">Tidak ada tugas tersedia.</string>
+    <string name="all_tasks">Semua tugas</string>
+    <string name="open_tasks">Tugas belum selesai</string>
+    <string name="completed_tasks">Tugas sudah selesai</string>
+    <string name="group_by_priority">Kelompokkan berdasarkan prioritas</string>
+    <string name="sort_by_deadline">Susun berdasarkan deadline</string>
+    <string name="add_subtask">Tambah subtask</string>
+
+    <!-- Create/Edit To-Do task dialog -->
+    <string name="new_todo_task">Tugas baru</string>
+    <string name="edit_todo_task">Edit tugas</string>
+    <string name="deadline_dd">Deadline:</string>
+    <string name="no_deadline">Tidak ber-Deadline</string>
+    <string name="edit_task">Edit Tugas</string>
+    <string name="delete_task">Delete Tugas</string>
+    <string name="task_removed">Task yang dimasukkan ke dalam bin</string>
+    <string name="deadline">Deadline</string>
+    <string name="reminder">Reminder</string>
+    <string name="deadline_smaller_reminder">Deadline tidak boleh lebih awal dari waktu reminder.</string>
+    <string name="set_deadline_before_reminder">Harap tentukan deadline sebelum menyetel reminder.</string>
+    <string name="progress_colon">Progres:</string>
+    <string name="priority_colon">Prioritas:</string>
+    <string name="zero_percent">0%</string>
+    <string name="select_priority">Pilih prioritas:</string>
+    <string name="select_list">Pilih daftar:</string>
+    <string name="new_todo_subtask">Sub-tugas baru</string>
+    <string name="todo_name_must_not_be_empty">Mohon masukkan nama tugas.</string>
+    <string name="edit_subtask">Edit sub-tugas</string>
+    <string name="delete_subtask">Hapus sub-tugas</string>
+    <string name="subtask_removed">Sub-tugas berhasil dihapus.</string>
+    <string name="to_choose_list">Pilih sebuah daftar!</string>
+    <string name="click_to_choose">Klik untuk memilih!</string>
+    <string name="list_colon">Daftar:</string>
+
+
+    <!-- Select reminder dialog -->
+    <string name="date">Tanggal</string>
+    <string name="time">Waktu</string>
+    <string name="no_reminder">Tanpa Reminder</string>
+
+    <!-- Calendar view -->
+    <string name="calendar">Kalender</string>
+    <string name="no_deadline_today">Tidak ada deadline hari ini.</string>
+
+    <!-- PIN -->
+    <string name="enter_pin">Masukkan PIN</string>
+    <string name="wrong_pin">PIN Salah!</string>
+    <string name="reset_application_button">Reset aplikasi</string>
+    <string name="invalid_pin">Mohon masukkan PIN dengan 4 digit angka.</string>
+    <string name="reset_application_msg">Apakah Anda yakin untuk mereset aplikasi ini? Reset akan menghilangkan PIN proteksi dan menghapus semua daftar yang telah tersimpan.</string>
+    <string name="add_pin">Tambahkan PIN numerik untuk memberikan akses untuk memasuki aplikasi. PIN harus mengandung minimal 4 digit.</string>
+
+    <!-- Settings -->
+    <string name="default_reminder_time">Waktu reminder default</string>
+    <string-array name="default_reminder_times_human">
+        <item>Pada deadline</item>
+        <item>0.5 hari sebelumnya</item>
+        <item>1 hari sebelumnya</item>
+        <item>1.5 hari sebelumnya</item>
+        <item>2 hari sebelumnya</item>
+        <item>2.5 hari sebelumnya</item>
+        <item>3 hari sebelumnya</item>
+    </string-array>
+    <string name="pin_enabled">PIN dibutuhkan pada permulaan</string>
+    <string name="set_pin">Atur PIN</string>
+    <string name="auto_progress">Progres dengan sub-tugas</string>
+    <string name="notify">Aktifakan suara pemberitahuan</string>
+
+    <!-- Reminder service -->
+    <string name="deadline_approaching">Deadline sudah dekat: %1$s</string>
+
+    <!-- Date and Time -->
+    <string name="sunday_abbr">MIN</string>
+    <string name="monday_abbr">SEN</string>
+    <string name="tuesday_abbr">SEL</string>
+    <string name="wednesday_abbr">RAB</string>
+    <string name="thursday_abbr">KAM</string>
+    <string name="friday_abbr">JUM</string>
+    <string name="saturday_abbr">SAB</string>
+    <string name="january">Januari</string>
+    <string name="february">Februari</string>
+    <string name="march">Maret</string>
+    <string name="april">April</string>
+    <string name="may">Mei</string>
+    <string name="june">Juni</string>
+    <string name="july">Juli</string>
+    <string name="august">Agustus</string>
+    <string name="september">September</string>
+    <string name="october">Oktober</string>
+    <string name="november">November</string>
+    <string name="december">Desember</string>
+
+    <!-- Error messages -->
+    <string name="error_removing_subtask">Sub-tugas tidak dapat dihapus dari database.</string>
+    <string name="error_removing_task">Tidak dapat menghapus tugas dari database.</string>
+    <string name="list_to_db_error">Kesalahan membuat daftar.</string>
+    <string name="task_to_db_error">Kesalahan memasukkan tugas baru ke dalam database.</string>
+    <string name="subtask_to_db_error">Kesalahan terjadi ketika memasukan sub-tugas baru ke dalam database.</string>
+
+    <!-- ### TUTORIAL DIALOG ### -->
+    <string name="tutorial">Tutorial</string>
+
+    <string name="slide1_heading">Selamat Datang!</string>
+    <string name="slide1_text">Selamat datang dalam aplikasi pengingat Tugas Anda. Aplikasi ini tidak memerlukan izin sama sekali.</string>
+
+    <string name="slide2_heading">Daftar</string>
+    <string name="slide2_text">Anda dapat memanajemen daftar tugas Anda.</string>
+
+    <string name="slide3_heading">Reminder</string>
+    <string name="slide3_text">Anda dapat menentukan deadline dan reminder untuk tugas Anda.</string>
+
+    <string name="slide4_heading">Semua itu Penting</string>
+    <string name="slide4_text">Anda dapat menambahkan sub-tugas dan progresnya terhadap tugas utama. Progres dapat diatur secara manual atau otomatis berdasarkan jumlah dari tugas yang diselesaikan.</string>
+
+    <string name="slide5_heading">Keamanan</string>
+    <string name="slide5_text">Anda dapat menambahkan PIN proteksi pada pengaturan.</string>
+
+    <string name="okay">Oke</string>
+    <string name="next">Selanjutnya</string>
+    <string name="skip">Lewati</string>
+
+    <!-- ### RECYCLE ACTIVITY ### -->
+    <string name="toast_del">Bin sudah dibersihkan.</string>
+    <string name="bin">Recycler</string>
+    <string name="bin_toolbar">Recycle bin</string>
+    <string name="btn_clear">Bersihkan bin</string>
+    <string name="bin_empty">Bin kosong</string>
+    <string name="restore">Kembalikan tugas</string>
+
+
+    <!-- ### TodoTask ACTIVITY ### -->
+    <string name="todo_activity">Tugas</string>
+
+    <!-- ### Delete AlertDialog ### -->
+    <string name="alert_listdelete">Yakin menghapus daftar ini?</string>
+    <string name="alert_clear">Yakin membersihkannya?</string>
+    <string name="alert_delete_yes">Hapus</string>
+    <string name="alert_delete_no">Kembali</string>
+
+    <!-- ### WIDGET ### -->
+    <string name="add_widget">Tambahkan widget</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="configure">Konfigurasi</string>
+    <string name="widget_list">Memilih sebuah daftar:</string>
+
+
+    <!-- ### Snackbar Messages ### -->
+    <string name="snack_check">Status perubahan tugas</string>
+    <string name="snack_undo">batalkan</string>
+    <string name="snack_clear">Bin sudah bersih sekarang.</string>
+
+    <!-- ### EXIT ### -->
+    <string name="exit_app">Keluar dari Tugas Anda?</string>
+    <string name="exit_positive">Ya</string>
+    <string name="exit_negative">Tidak</string>
+
+</resources>
