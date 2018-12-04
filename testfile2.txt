@@ -1,1 +1,3 @@
 coba file2
+
+merge ke master
